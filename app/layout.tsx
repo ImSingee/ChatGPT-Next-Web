@@ -41,6 +41,7 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://umami.singee.site/script.js" data-website-id="6152e223-64a4-479a-9bcc-94fe4dac0c52"></script>
       </head>
       <body>{children}</body>
     </html>
