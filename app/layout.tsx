@@ -34,11 +34,6 @@ export default function RootLayout({
       <head>
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
-        <link rel="preconnect" href="https://fonts.proxy.ustclug.org"></link>
-        <link
-          rel="stylesheet"
-          href="https://fonts.proxy.ustclug.org/css2?family=Noto+Sans+SC:wght@300;400;700;900&display=swap"
-        ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
         <script async src="https://umami.singee.site/script.js" data-website-id="6152e223-64a4-479a-9bcc-94fe4dac0c52"></script>
       </head>
