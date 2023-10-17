@@ -1039,6 +1039,11 @@ function _Chat() {
     submit: (text) => {
       doSubmit(text);
     },
+    key: (text) => {
+      if (accessStore.disableFastLink) return;
+      console.log("[Command] got key from url: ", text);
+      accessStore.update((access) => (access.openaiApiKey = text));
+    },
     code: (text) => {
       if (accessStore.disableFastLink) return;
       console.log("[Command] got code from url: ", text);

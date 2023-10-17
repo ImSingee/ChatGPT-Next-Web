@@ -7,6 +7,7 @@ interface Commands {
   fill?: Command;
   submit?: Command;
   mask?: Command;
+  key?: Command;
   code?: Command;
   settings?: Command;
 }
