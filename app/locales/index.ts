@@ -76,6 +76,10 @@ const DEFAULT_LANG = "en";
 const fallbackLang = en;
 const targetLang = ALL_LANGS[getLang()] as LocaleType;
 
+targetLang.Error = {} as any;
+en.Error.Unauthorized = "Access Denied (Contact 1space-ai@singee.me for help)";
+cn.Error.Unauthorized = "未授权（可联系 1space-ai@singee.me 获取帮助）";
+
 // if target lang missing some fields, it will use fallback lang string
 merge(fallbackLang, targetLang);
 
