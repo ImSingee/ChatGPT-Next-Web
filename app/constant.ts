@@ -289,6 +289,24 @@ export const DEFAULT_MODELS = [
       providerType: "google",
     },
   },
+  {
+    name: "claude-3-opus-20240229",
+    available: true,
+    provider: {
+      id: "claude",
+      providerName: "Claude",
+      providerType: "claude",
+    },
+  },
+  {
+    name: "claude-3-sonnet-20240229",
+    available: true,
+    provider: {
+      id: "claude",
+      providerName: "Claude",
+      providerType: "claude",
+    },
+  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
