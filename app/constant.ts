@@ -307,6 +307,15 @@ export const DEFAULT_MODELS = [
       providerType: "claude",
     },
   },
+  {
+    name: "claude-3-haiku-20240307",
+    available: true,
+    provider: {
+      id: "claude",
+      providerName: "Claude",
+      providerType: "claude",
+    },
+  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
